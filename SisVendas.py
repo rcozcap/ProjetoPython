@@ -90,7 +90,7 @@ class Main():
         self.catchpass = self.passwrd.get()
 
         self.con = MySQLdb.connect(
-            host='localhost', user='developer', passwd='1234567', db='shop')
+            host='localhost', user='developer', passwd='Senha do Banco de Dados', db='shop')
 
         self.cursor = self.con.cursor()
 
@@ -299,7 +299,7 @@ class Main():
         lastMonth = date.today() - timedelta(days=30)
 
         self.con = MySQLdb.connect(
-            host='localhost', user='developer', passwd='1234567', db='shop')
+            host='localhost', user='developer', passwd='Senha do Banco de Dados', db='shop')
 
         self.cursor = self.con.cursor()
 
@@ -340,7 +340,7 @@ class Main():
         self.treeInv.delete(*self.treeInv.get_children())
 
         self.con = MySQLdb.connect(
-            host='localhost', user='developer', passwd='1234567', db='shop')
+            host='localhost', user='developer', passwd='Senha do Banco de Dados', db='shop')
 
         self.cursor = self.con.cursor()
 
@@ -361,7 +361,7 @@ class Main():
         self.treeInv.delete(*self.treeInv.get_children())
 
         self.con = MySQLdb.connect(
-            host='localhost', user='developer', passwd='1234567', db='shop')
+            host='localhost', user='developer', passwd='Senha do Banco de Dados', db='shop')
 
         self.cursor = self.con.cursor()
 
@@ -385,7 +385,7 @@ class Main():
         self.itemx = int(self.item.get())
 
         self.con = MySQLdb.connect(
-            host='localhost', user='developer', passwd='1234567', db='shop')
+            host='localhost', user='developer', passwd='Senha do Banco de Dados', db='shop')
 
         self.cursor = self.con.cursor()
 
@@ -635,7 +635,7 @@ e o troco será R${self.troco:.2f}')
         # Inserindo nota fiscal no banco de dados
 
         self.con = MySQLdb.connect(
-            host='localhost', user='developer', passwd='1234567', db='shop')
+            host='localhost', user='developer', passwd='Senha do Banco de Dados', db='shop')
 
         self.cursor = self.con.cursor()
 
